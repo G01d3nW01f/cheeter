@@ -1,7 +1,7 @@
 # cheeter
 load the Cheat Sheet and show commands, in specify keyword on users interactive input
 
-This script is assist you who during the pentest,
+This script is assist for pentest,
 
 execute with path of file for cheatsheet in first argument.
 and enter some info. for example lhost lport rhost rport
