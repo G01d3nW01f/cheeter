@@ -45,7 +45,7 @@ def arg_check():
     if len(sys.argv) != 2:
         message  = "[!]Need More Args!!!!"
         message2 = f"Usage: {sys.argv[0]} <path of cheefsheet_file>"
-        message3 = f"Example: {sys.argv[0]} /home/user/cheet_sheet.txt"
+        message3 = f"Example: {sys.argv[0]} ~/cheatsheets/cheatsheet.txt"
         max_length = len(message3)
         padding = max_length - len(message)
         padding2 = max_length - len(message2)    
