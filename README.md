@@ -1,5 +1,5 @@
 # cheeter
-load the Cheat Sheet and show, in specify keyword on users interactive input
+load the Cheat Sheet and show commands, in specify keyword on users interactive input
 
 This script is assist you who during the pentest,
 
