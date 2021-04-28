@@ -68,9 +68,11 @@ def file_load():
     try:
 
         file_path = sys.argv[1]
+        f = open(file_path,"r")
         print(bcolors.BLUE)
         print(f"successfuly load: {file_path}")
         print(bcolors.ENDC)
+        del f
         return file_path
 
     except:
