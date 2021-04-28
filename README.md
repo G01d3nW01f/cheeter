@@ -24,9 +24,9 @@ then you need the follow the rule
 
 Cheat Sheet rule:
         
-        <some command> http://target.com:8080 HOSTandPORTS=10.10.14.11:1337
+      origin:  <some command> http://target.com:8080 HOSTandPORTS=10.10.14.11:1337
         
                                 |
                                 V
         
-        <some command> http://{rhost}:{rport} HOSTandPORTS={lhost}:{lport}
+      rule  :  <some command> http://{rhost}:{rport} HOSTandPORTS={lhost}:{lport}
