@@ -31,4 +31,10 @@ Cheat Sheet rule:
         
       rule  :  <some command> http://{rhost}:{rport} HOSTandPORTS={lhost}:{lport}
       
-  these rule are needed for automatically parse by scripts works.
+these rule are needed for automatically parse by scripts works.
+entered values are going to parse follow the rule
+
+        {host}   => lhost
+        {lport}  => lport
+        {rhost}  => rhost
+        {rport}  => rport
