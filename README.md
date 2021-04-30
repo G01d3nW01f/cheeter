@@ -34,7 +34,7 @@ Cheat Sheet rule:
 these rule are needed for automatically parse by scripts works.
 entered values are going to parse follow the rule
 
-        {host}   => lhost
+        {lhost}  => lhost
         {lport}  => lport
         {rhost}  => rhost
         {rport}  => rport
