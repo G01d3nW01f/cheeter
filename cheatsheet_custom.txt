@@ -80,3 +80,4 @@ docker run -v /:/mnt --rm -it alpine chroot /mnt sh
 searchsploit -m file
 ssh user@{rhost} -t "bash --noprofile"
 where /r c: *user.txt*
+getcap -r / 2>/dev/null
